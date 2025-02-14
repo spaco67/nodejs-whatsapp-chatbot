@@ -1,10 +1,11 @@
 {
   "name": "whatsapp-bot",
   "version": "1.0.0",
-  "description": "Simple bot for whapi.cloud",
+  "description": "WhatsApp bot with webhook support",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node webhook-server.js",
+    "test": "node test-message.js"
   },
   "author": "A.K.",
   "license": "ISC",
